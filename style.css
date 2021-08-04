@@ -586,16 +586,21 @@ footer span a:hover{
         opacity: 0.5;
         float: right;
         justify-content: center;
+        margin-bottom: 50px;
       
     } 
    
     
     .intro{
         
-        bottom: 5px;
+        /* bottom: 5px; */
+        /* font-size: 100px; */
         position: absolute;
-        left: 30%;
-       margin-bottom: 50px;
+        left: 25%;
+       
+        /* margin-top: 150px; */
+        /* bottom: 5px; */
+       /* margin-bottom: 50px; */
 
   
     }
@@ -605,13 +610,14 @@ footer span a:hover{
         font-size: 15px;
     }
     .home .home-content .txt{
-        font-size: 20px;
+      
+        font-size: 30px;
     }
     .home .home-content .big-text{
         font-size: 30px;
     }
     .home .home-content .type{
-        font-size: 18px;
+        font-size: 22px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
