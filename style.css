@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -229,10 +230,10 @@ section .title::after{
     color:#fff;
     background: #111;
 }
-.projects .title::after{
+/* .projects .title::after{
   
     content: "what I have done";
-}
+} */
  .projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -241,12 +242,15 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 .projects .serv-content .card:hover{
     background: #fc6A03;
 }
 .projects .serv-content .card .box{
     transition: all 0.3s ease;
+    justify-content: space-around;
 }
 .projects .serv-content .card:hover .box{
     transform: scale(1.05);
@@ -341,9 +345,9 @@ section .title::after{
 .contact .title{
     color: white;
 }
-.contact .title::after{
+/* .contact .title::after{
     content: "get in touch";
-}
+} */
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
